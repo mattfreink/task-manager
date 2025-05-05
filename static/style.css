@@ -53,3 +53,14 @@ button {
     text-decoration: line-through;
     color: gray;
 }
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
